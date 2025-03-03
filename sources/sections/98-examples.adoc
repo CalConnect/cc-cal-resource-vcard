@@ -1,0 +1,81 @@
+== Examples
+
+=== Location Resource
+
+In this example we make use of OBJECTCLASS:schedulable to make this a schedulable resource.
+
+[source%unnumbered]
+----
+BEGIN:VCARD
+VERSION:4.0
+UID:urn:uuid:room1-id
+KIND: location
+LOCATIONTYPE: classroom
+FN: Room One
+ORG: Engineering
+NICKNAME: The One
+NOTE: Room 1 in Engineering Building X
+CATEGORIES: rooms, engineering_resources
+OBJECTCLASS:schedulable
+BOOKINGRESTRICTED: TRUE
+BOOKINGINFO: http://www.example.com/room1_booking.html
+CALADRURI: mailto:room1@example.com
+MULTIBOOK: 1
+MAXINSTANCES: 10
+BOOKINGWINDOWSTART:P3M
+BOOKINGWINDOWEND: P3D
+AUTOSCHEDULE: AUTO
+RELATED;TYPE=schedule-admin:
+ http://www.example.com/SchedAdmin1.vcf
+ACCESSIBLE: TRUE
+ACCESSIBILITYINFO: http://www.example.com/room1_disabledaccess.html
+CAPACITY: 100
+INVENTORY: phone, projector
+FBURL: http://www.example.com/freebusy/home/Room1/
+TZ: America/Los_Angeles
+RELATED;TYPE=owner: http://www.example.com/ResOwner1.vcf
+RELATED;TYPE=manager: http://www.example.com/ResManager1.vcf
+RELATED;TYPE=container:http://www.example.com/BldX.vcf
+RESTRICTED: TRUE
+RESTRICTEDACCESSINFO: http://www.example.com/room1_specialaccess.html
+NOCOST: FALSE
+COSTINFO: http://www.example.com/cost.html
+END:VCARD
+----
+
+=== Role Resources Group
+
+This example also makes use of OBJECTCLASS:schedulable to make this a schedulable resource.
+
+[source%unnumbered]
+----
+BEGIN:VCARD
+VERSION:4.0
+UID:urn:uuid:driverXPool-id
+KIND: group
+FN: Driver X Pool
+ORG: Transportation
+NICKNAME: The X Group
+NOTE: Drivers in the Transportation department driver pool X
+CATEGORIES: drivers
+MEMBER:urn:uuid:driver1-id
+MEMBER:urn:uuid:driver2-id
+MEMBER:urn:uuid:driver3-id
+FBURL: http://www.example.com/freebusy/home/DriversX/
+OBJECTCLASS:schedulable
+CALADRURI: mailto:driversX@example.com
+MULTIBOOK: 3
+MAXINSTANCES: 10
+BOOKINGWINDOWSTART:P3M
+BOOKINGWINDOWEND: P3D
+AUTOSCHEDULE: NONE
+RELATED;TYPE=schedule-admin:
+ http://www.example.com/DriversX_SchedAdmin.vcf
+TZ: America/Los_Angeles
+BOOKINGINFO: http://www.example.com/driversX_approval.html
+RELATED;TYPE=manager:
+ http://www.example.com/DriversManager.vcf
+NOCOST: FALSE
+COSTINFO: http://www.example.com/driversXcost.html
+END:VCARD
+----

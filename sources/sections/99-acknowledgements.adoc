@@ -1,0 +1,8 @@
+[acknowledgments]
+== Acknowledgments
+
+This specification is a result of discussions that took place within the Calendaring and
+Scheduling Consortium's Resource Technical Committee. The authors thank the participants of that
+group, and specifically the following individuals for contributing their ideas and support:
+Arnaud Quillaud, Adam Lewenberg, Andrew Laurence, Guy Stalnaker, Mimi Mugler, Dave Thewlis,
+Bernard Desruisseaux, Alain Petit, Andrew Sciberras, Adrian Apthorp, and Jason Miller.
