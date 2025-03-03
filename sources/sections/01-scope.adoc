@@ -1,0 +1,3 @@
+== Scope
+
+//This document specifies the vCard representation of resources to ease their discovery by clients.

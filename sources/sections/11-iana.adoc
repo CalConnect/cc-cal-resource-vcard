@@ -1,0 +1,34 @@
+[[iana_registry]]
+== IANA Considerations
+
+=== VCard Property and Value Registration
+
+The following new VCard Properties need to be registered by IANA.
+
+.New VCard Properties Table
+[cols="2,1"]
+|===
+|VCard Property Name |VCard Property Definition
+
+|ACCESSIBLE |<<accessible>>
+|ACCESSIBILITYINFO |<<access>>
+|CAPACITY |<<capacity>>
+|COSTINFO |<<cost_url>>
+|INVENTORY |<<inventorylist>>
+|LOCATIONTYPE |<<locationtype>>
+|NOCOST |<<free>>
+|RESTRICTED |<<restrict>>
+|RESTRICTEDACCESSINFO |<<restrictaccess_info>>
+|===
+
+The following new VCard Parameter Values need to be registered by IANA.
+
+.New VCard Parameter Values Table
+[cols="1,1,1"]
+|===
+|VCard Property Name |VCard Parameter Name |VCard Parameter Value
+
+|RELATED |TYPE |container <<reltypevals>>
+|RELATED |TYPE |manager <<reltypevals>>
+|RELATED |TYPE |owner <<reltypevals>>
+|===

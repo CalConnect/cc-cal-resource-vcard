@@ -1,0 +1,4 @@
+== General Considerations
+
+Data values MUST have valid representation for the specified value type with respect to escape characters,
+line folding, and so on.

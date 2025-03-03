@@ -1,22 +1,21 @@
-= CalConnect Standard: (TITLE)
+= CalConnect Standard: vCard representation of resources
 
-This work item belongs to CalConnect (TCs).
+This work item belongs to CalConnect VCARD TC.
 
 image:https://github.com/CalConnect/cc-cal-resource-vcard/workflows/generate/badge.svg["Build Status", link="https://github.com/CalConnect/cc-cal-resource-vcard/actions?workflow=generate"]
 
 This document is available in its rendered forms here:
 
-* https://calconnect.github.io/cc-cal-resource-vcard/[CalConnect: Calendaring and scheduling -- Vocabulary (HTML)]
+* https://calconnect.github.io/cc-cal-resource-vcard/[CalConnect: vCard representation of resources (HTML)]
 
 == General
 
-This document specifies the (TITLE).
+This document specifies the vCard representation of resources.
 
 The document is published as the following:
 
-* CalConnect CC (DOCNUMBER)
-* ISO (DOCNUMBER)
-* IETF draft-cc-cal-resource-vcard
+* CalConnect CC 58012
+* IETF draft-cal-resource-vcard
 
 
 == Fetching the document

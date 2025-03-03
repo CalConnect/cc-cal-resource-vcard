@@ -1,0 +1,4 @@
+[abstract]
+== Abstract
+
+This specification describes the vCard representation of resources.

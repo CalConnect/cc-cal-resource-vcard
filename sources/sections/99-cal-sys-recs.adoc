@@ -1,0 +1,11 @@
+== Unresolved Issues
+
+Defining finer granularity of resource KIND - A schedulable resource might not exactly
+correspond to a specific one in the list of pre-defined values for KIND. Question is how to
+convey the additional information. Possibilities are extending KIND values to include all
+combinations, defining an objectclass model where an object is built out of many pre-defined
+KINDs, or defining standard parameter extensions to KIND to include more information.
+
+Defining RESOURCETYPE - For a location resource, a new property LOCATIONTYPE was added to
+provide more information. Are similar new properties required for non-location resources? Or do
+we need a generic RESOURCETYPE property with a set of predefined values?
