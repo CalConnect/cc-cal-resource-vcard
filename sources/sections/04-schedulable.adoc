@@ -1,10 +1,11 @@
 == Resource Object
 
-A resource object definition SHOULD contain all information required to find the right resource.
-For this, it SHOULD contain all, or a set of properties described in <<res_attrs>>. Additional
-proprietary properties may be defined as well, but MUST begin with "X-". Clients encountering
-properties they don't know about MUST ignore them.
+A resource object definition SHOULD contain all information required to find the
+right resource. For this, it SHOULD contain all, or a set of properties
+described in <<res_attrs>>. Additional proprietary properties may be defined as
+well, but MUST begin with "X-". Clients encountering properties they don't know
+about MUST ignore them.
 
-Properties required to contact the resource are not included in this specification. vCard
-properties defined in <<RFC6350>> can be used to include additional contact information for the
-resource.
+Properties required to contact the resource are not included in this
+specification. vCard properties defined in <<RFC6350>> can be used to include
+additional contact information for the resource.

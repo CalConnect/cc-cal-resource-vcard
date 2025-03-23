@@ -4,10 +4,14 @@
 [[reltypevals]]
 === RELATED TYPE Values
 
-This document specifies the following additional values that can be used as the value for the
-TYPE parameter of the RELATED property defined in <<RFC6350,section=6.6.6>>.
+This document specifies the following additional values that can be used as the
+value for the TYPE parameter of the RELATED property defined in
+<<RFC6350,section=6.6.6>>.
 
-* container: an entity that contains the entity associated with this vCard. For example, the
-building that contains the room resource specified by the vCard.
-* manager: an entity that manages the resource entity associated with this vCard.
+* container: an entity that contains the entity associated with this vCard. For
+example, the building that contains the room resource specified by the vCard.
+
+* manager: an entity that manages the resource entity associated with this
+vCard.
+
 * owner: an entity that owns the resource entity associated with this vCard.

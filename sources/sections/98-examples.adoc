@@ -2,7 +2,7 @@
 
 === Location Resource
 
-In this example we make use of OBJECTCLASS:schedulable to make this a schedulable resource.
+In this example we make use of `OBJECTCLASS:schedulable` to make this a schedulable resource.
 
 [source%unnumbered]
 ----
@@ -45,7 +45,7 @@ END:VCARD
 
 === Role Resources Group
 
-This example also makes use of OBJECTCLASS:schedulable to make this a schedulable resource.
+This example also makes use of `OBJECTCLASS:schedulable` to make this a schedulable resource.
 
 [source%unnumbered]
 ----
