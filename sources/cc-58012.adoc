@@ -27,8 +27,6 @@
 
 include::sections/00-abstract.adoc[]
 
-include::sections/01-intro.adoc[]
-
 include::sections/01-scope.adoc[]
 
 include::sections/02-normative-references.adoc[]

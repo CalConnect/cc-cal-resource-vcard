@@ -10,15 +10,16 @@ The following new VCard Properties need to be registered by IANA.
 |===
 |VCard Property Name |VCard Property Definition
 
-|ACCESSIBLE |<<accessible>>
-|ACCESSIBILITYINFO |<<access>>
-|CAPACITY |<<capacity>>
-|COSTINFO |<<cost_url>>
-|INVENTORY |<<inventorylist>>
-|LOCATIONTYPE |<<locationtype>>
-|NOCOST |<<free>>
-|RESTRICTED |<<restrict>>
-|RESTRICTEDACCESSINFO |<<restrictaccess_info>>
+|`ACCESSIBLE` |<<accessible>>
+|`ACCESSIBILITYINFO` |<<access>>
+|`CAPACITY` |<<capacity>>
+|`COSTINFO` |<<cost_url>>
+|`INVENTORY` |<<inventorylist>>
+|`LOCATIONTYPE` |<<locationtype>>
+|`NOCOST` |<<free>>
+|`RESTRICTED` |<<restrict>>
+|`RESTRICTEDACCESSINFO` |<<restrictaccess_info>>
+
 |===
 
 The following new VCard Parameter Values need to be registered by IANA.
@@ -28,7 +29,7 @@ The following new VCard Parameter Values need to be registered by IANA.
 |===
 |VCard Property Name |VCard Parameter Name |VCard Parameter Value
 
-|RELATED |TYPE |container <<reltypevals>>
-|RELATED |TYPE |manager <<reltypevals>>
-|RELATED |TYPE |owner <<reltypevals>>
+|`RELATED` |`TYPE` |container <<reltypevals>>
+|`RELATED` |`TYPE` |manager <<reltypevals>>
+|`RELATED` |`TYPE` |owner <<reltypevals>>
 |===
