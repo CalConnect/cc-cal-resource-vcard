@@ -1,3 +1,5 @@
+# metanorma.release.yml — cc-cal-resource-vcard
+
 documents:
-  - source: sources/cc-58012.adoc
-  - source: sources/draft-cal-resource-vcard.adoc
+  - pattern: "cc-*"
+    channels: [public/standards]
